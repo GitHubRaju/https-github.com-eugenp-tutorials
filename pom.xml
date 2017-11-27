@@ -43,11 +43,11 @@
         <module>bootique</module>
 
         <!-- <module>cdi</module> -->
-        <!-- <module>core-java-9</module> -->
-        <!-- <module>core-java</module> -->
+        <module>core-java-9</module>
+        <module>core-java</module>
         <module>core-java-8</module>
-        <!-- <module>core-java-concurrency</module> -->
-        <!-- <module>couchbase</module> -->
+        <module>core-java-concurrency</module>
+        <module>couchbase</module>
         <!-- <module>cas/cas-server</module> -->
         <!-- <module>cas/cas-secured-app</module> -->
 
@@ -140,13 +140,13 @@
         <!-- <module>spark-java</module> -->
         <!-- <module>spring-5</module> -->
         <!-- <module>spring-5-mvc</module> -->
-        <!-- <module>spring-activiti</module> -->
-        <!-- <module>spring-akka</module> -->
-        <!-- <module>spring-amqp</module> -->
-        <!-- <module>spring-all</module> -->
-        <!-- <module>spring-amqp-simple</module> -->
-        <!-- <module>spring-apache-camel</module> -->
-        <!-- <module>spring-batch</module> -->
+        <module>spring-activiti</module>
+        <module>spring-akka</module>
+        <module>spring-amqp</module>
+        <module>spring-all</module>
+        <module>spring-amqp-simple</module>
+        <module>spring-apache-camel</module>
+        <module>spring-batch</module>
         <!-- <module>spring-bom</module> -->
         <!-- <module>spring-boot</module> -->
         <!-- <module>spring-boot-keycloak</module> -->
