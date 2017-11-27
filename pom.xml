@@ -27,20 +27,20 @@
     </properties>
 
     <modules>
-        <!-- <module>asm</module> -->
-        <!-- <module>atomix</module> -->
-        <!-- <module>apache-cayenne</module> -->
-        <!-- <module>aws</module> -->
-        <!-- <module>akka-streams</module> -->
-        <!-- <module>algorithms</module> -->
-        <!-- <module>annotations</module> -->
-        <!-- <module>apache-cxf</module> -->
-        <!-- <module>apache-fop</module> -->
-        <!-- <module>apache-poi</module> -->
-        <!-- <module>apache-thrift</module> -->
-        <!-- <module>autovalue</module> -->
-        <!-- <module>axon</module> -->
-        <!-- <module>bootique</module> -->
+        <module>asm</module>
+        <module>atomix</module>
+        <module>apache-cayenne</module>
+        <module>aws</module>
+        <module>akka-streams</module>
+        <module>algorithms</module>
+        <module>annotations</module>
+        <module>apache-cxf</module>
+        <module>apache-fop</module>
+        <module>apache-poi</module>
+        <module>apache-thrift</module>
+        <module>autovalue</module>
+        <module>axon</module>
+        <module>bootique</module>
 
         <!-- <module>cdi</module> -->
         <!-- <module>core-java-9</module> -->
