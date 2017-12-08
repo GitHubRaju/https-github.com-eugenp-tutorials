@@ -28,10 +28,11 @@
 
     <modules>
         
-        <module>aws</module>
-        <module>akka-streams</module>
-        <module>algorithms</module>
-        <module>annotations</module>
+        <module>testing-modules/groovy-spock</module> 
+
+         <module>asm</module>
+        <module>atomix</module>
+        <module>apache-cayenne</module>
         
     </modules>
 
