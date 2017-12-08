@@ -37,7 +37,7 @@
         <module>algorithms</module>
         <module>annotations</module>
         <module>apache-cxf</module>
-        <module>apache-fop</module>modu
+        <module>apache-fop</module>
         <module>apache-poi</module>
         <module>apache-thrift</module>
         <module>autovalue</module>
