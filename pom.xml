@@ -28,12 +28,10 @@
 
     <modules>
         
-        <module>apache-cxf</module>
-        <module>apache-fop</module>
-        <module>apache-poi</module>
-        <module>apache-thrift</module>
-        <module>autovalue</module>
-        <module>axon</module>
+        <module>aws</module>
+        <module>akka-streams</module>
+        <module>algorithms</module>
+        <module>annotations</module>
         
     </modules>
 
