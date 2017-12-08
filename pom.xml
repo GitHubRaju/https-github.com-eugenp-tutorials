@@ -27,51 +27,67 @@
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     </properties>
     <modules>
-        <module>asm</module>
-        <module>atomix</module>
-        <module>apache-cayenne</module>
-        <module>aws</module>
-        <module>akka-streams</module>
-        <module>algorithms</module>
-        <module>annotations</module>
-        <module>apache-cxf</module>
-        <module>apache-fop</module>
-        <module>apache-poi</module>
-        <module>apache-thrift</module>
-        <module>autovalue</module>
-        <module>axon</module>
-        <module>bootique</module>
+        <module>handling-spring-static-resources</module> 
+         <module>hazelcast</module> 
+         <module>hbase</module> 
+         <module>hibernate5</module> 
+         <module>httpclient</module> 
+         <module>hystrix</module> 
 
-         <module>cdi</module> 
-        <!--<module>core-java-9</module> -->
-        <module>core-java</module>
-        <module>core-java-8</module>
-        <module>core-java-concurrency</module>
-        <module>couchbase</module>
-         <module>cas/cas-server</module> 
-         <!--<module>cas/cas-secured-app</module> -->
+         <module>image-processing</module> 
+         <module>immutables</module> 
 
-         <module>deltaspike</module> 
-         <module>dozer</module> 
+         <module>jackson</module> 
+         <!--<module>persistence-modules/java-cassandra</module> -->
+         <module>vavr</module> 
+         <module>javax-servlets</module> 
+         <module>javaxval</module> 
+         <module>jaxb</module> 
+         <module>jee-7</module> 
+         <!--<module>jhipster/jhipster-monolithic</module> -->
+         <module>jjwt</module> 
+         <module>jpa-storedprocedure</module> 
+         <module>jsf</module> 
+         <module>json-path</module> 
+         <module>json</module> 
+         <module>jsoup</module> 
+         <module>testing-modules/junit-5</module> 
+         <module>jws</module> 
 
-         <module>ethereumj</module> 
+         <module>libraries</module> 
+         <module>libraries-data</module> 
+         <module>linkrest</module> 
+         <module>logging-modules/log-mdc</module> 
+         <module>logging-modules/log4j</module> 
+         <module>logging-modules/log4j2</module> 
+         <module>lombok</module> 
+         <!--<module>kotlin</module> -->
+         <module>mapstruct</module> 
+         <module>metrics</module> 
+         <module>mesos-marathon</module> 
+         <module>testing-modules/mockito</module> 
+         <module>testing-modules/mockito-2</module> 
+         <module>testing-modules/mocks</module> 
+         <module>mustache</module> 
+         <module>noexception</module> 
 
-         <!--<module>ejb</module>--> 
+         <module>osgi</module> 
+         <module>orika</module> 
 
-         <module>feign</module> 
-         <module>flyway</module> 
+         <module>patterns</module> 
+         <module>pdf</module> 
+         <module>protobuffer</module> 
 
-         <!--<module>testing-modules/gatling</module> not meant to run as part of the standard build --> 
+         <module>persistence-modules/querydsl</module> 
 
-         <module>geotools</module> 
-         <module>testing-modules/groovy-spock</module> 
-         <module>gson</module> 
-         <module>guava</module> 
-         <module>guava-modules/guava-18</module> 
-         <module>guava-modules/guava-19</module> 
-         <module>guava-modules/guava-21</module> 
-         <module>guice</module> 
-         <module>disruptor</module>  
+         <!--<module>raml</module> -->
+         <module>reactor-core</module> 
+         <module>persistence-modules/redis</module> 
+         <module>testing-modules/rest-assured</module> 
+         <module>testing-modules/rest-testing</module> 
+         <module>resteasy</module> 
+         <module>rxjava</module> 
+         <module>spring-swagger-codegen</module> 
    </modules>
 	
     <dependencies>
