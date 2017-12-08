@@ -49,7 +49,7 @@
         <module>core-java-concurrency</module>
         <module>couchbase</module>
          <module>cas/cas-server</module> 
-         <module>cas/cas-secured-app</module> 
+         <!--<module>cas/cas-secured-app</module> -->
 
          <module>deltaspike</module> 
          <module>dozer</module> 
