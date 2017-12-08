@@ -27,65 +27,42 @@
     </properties>
 
     <modules>
-        <module>guava-modules/guava-18</module> 
+        <module>testing-modules/groovy-spock</module> 
 
-         <module>guava-modules/guava-19</module> 
-
-         <module>guava-modules/guava-21</module> 
-
-         <module>persistence-modules/java-cassandra</module> 
-
-         <module>testing-modules/junit-5</module> 
-
-         <module>logging-modules/log-mdc</module> 
-
-         <module>logging-modules/log4j</module> 
-
-         <module>logging-modules/log4j2</module> 
-
-         <module>testing-modules/mockito</module> 
-
-         <module>testing-modules/mockito-2</module> 
-
-         <module>testing-modules/mocks</module> 
-
-         <module>persistence-modules/querydsl</module> 
-
-         <module>persistence-modules/redis</module> 
-
-         <module>testing-modules/rest-assured</module> 
-
-         <module>testing-modules/rest-testing</module> 
-
-         <module>testing-modules/selenium-junit-testng</module> 
-
-         <module>persistence-modules/solr</module> 
-
-         <module>persistence-modules/spring-data-cassandra</module> 
-
-         <module>persistence-modules/spring-data-dynamodb</module> 
-
-         <module>persistence-modules/spring-data-neo4j</module> 
-
-         <module>persistence-modules/spring-data-redis</module> 
-
-         <module>persistence-modules/spring-data-solr</module> 
-
-         <module>persistence-modules/spring-hibernate-3</module> 
-
-         <module>persistence-modules/spring-hibernate-5</module> 
-
-         <module>persistence-modules/spring-jpa</module> 
-
-         <module>testing-modules/testing</module> 
-
-         <module>testing-modules/testng</module> 
-
-         <module>persistence-modules/spring-data-gemfire</module> 
-
-         <module>persistence-modules/liquibase</module> 
-
-         <module>testing-modules/mockserver</module> 
+         <module>asm</module>
+        <module>atomix</module>
+        <module>apache-cayenne</module>
+        <module>aws</module>
+        <module>akka-streams</module>
+        <module>algorithms</module>
+        <module>annotations</module>
+        <module>apache-cxf</module>
+        <module>apache-fop</module>modu
+        <module>apache-poi</module>
+        <module>apache-thrift</module>
+        <module>autovalue</module>
+        <module>axon</module>
+        <module>bootique</module>
+         <module>spring-activiti</module>
+        <module>spring-akka</module>
+        <module>spring-amqp</module>
+        <module>spring-all</module>
+        <module>spring-amqp-simple</module>
+        <module>spring-apache-camel</module>
+        <module>spring-batch</module>
+         <module>core-java</module>
+        <module>core-java-8</module>
+        <module>core-java-concurrency</module>
+        <module>couchbase</module>
+         <module>spring-mvc-email</module>
+        <module>spring-mvc-forms</module>
+        <module>spring-mvc-java</module>
+        <module>spring-mvc-tiles</module>
+        <module>spring-mvc-velocity</module>
+        <module>spring-mvc-webflow</module>
+        <module>spring-mvc-xml</module>
+        <module>spring-mvc-simple</module>
+        <module>spring-mvc-kotlin</module>
     </modules>
 
     <dependencies>
