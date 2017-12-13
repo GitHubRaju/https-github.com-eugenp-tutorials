@@ -28,7 +28,8 @@ public class CountdownLatchExampleIntegrationTest {
         outputScraper.add("Latch released");
 
         // Then
-        assertThat(outputScraper).containsExactly("Counted down", "Counted down", "Counted down", "Counted down", "Counted down", "Latch released");
+        assertThat(outputScraper)
+          .containsExactly("Counted down", "Counted down", "Counted down", "Counted down", "Counted down", "Latch released");
     }
 
     @Test
@@ -55,7 +56,9 @@ public class CountdownLatchExampleIntegrationTest {
         CountDownLatch readyThreadCounter = new CountDownLatch(5);
         CountDownLatch callingThreadBlocker = new CountDownLatch(1);
         CountDownLatch completedThreadCounter = new CountDownLatch(5);
-        List<Thread> workers = Stream.generate(() -> new Thread(new WaitingWorker(outputScraper, readyThreadCounter, callingThreadBlocker, completedThreadCounter))).limit(5).collect(toList());
+        List<Thread> workers = Stream
+          .generate(() -> new Thread(new WaitingWorker(outputScraper, readyThreadCounter, callingThreadBlocker, completedThreadCounter)))
+          .limit(5).collect(toList());
 
         // When
         workers.forEach(Thread::start);
@@ -66,7 +69,7 @@ public class CountdownLatchExampleIntegrationTest {
         outputScraper.add("Workers complete");
 
         // Then
-        assertThat(outputScraper).containsExactly("Workers ready", "Counted down", "Counted down", "Counted down", "Counted down", "Counted down", "Workers complete");
+        assertThat(outputScraper)
+          .containsExactly("Workers ready", "Counted down", "Counted down", "Counted down", "Counted down", "Counted down", "Workers complete");
     }
-
 }

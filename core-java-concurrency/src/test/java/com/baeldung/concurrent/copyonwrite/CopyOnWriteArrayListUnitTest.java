@@ -1,6 +1,5 @@
 package com.baeldung.concurrent.copyonwrite;
 
-
 import org.junit.Test;
 
 import java.util.Iterator;
@@ -9,7 +8,6 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 
 public class CopyOnWriteArrayListUnitTest {
 
@@ -35,7 +33,6 @@ public class CopyOnWriteArrayListUnitTest {
 
         //then
         assertThat(result2).containsOnly(1, 3, 5, 8, 10);
-
     }
 
     @Test(expected = UnsupportedOperationException.class)

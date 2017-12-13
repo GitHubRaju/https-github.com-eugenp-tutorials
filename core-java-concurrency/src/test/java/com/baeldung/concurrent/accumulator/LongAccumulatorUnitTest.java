@@ -33,6 +33,5 @@ public class LongAccumulatorUnitTest {
         executorService.awaitTermination(500, TimeUnit.MILLISECONDS);
         executorService.shutdown();
         assertEquals(accumulator.get(), 20200);
-
     }
 }
