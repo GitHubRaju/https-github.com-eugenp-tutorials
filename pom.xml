@@ -27,11 +27,9 @@
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     </properties>
    <modules>
-          <module>guava-modules/guava-18</module> 
-         <module>guava-modules/guava-19</module> 
+         
          <module>guava-modules/guava-21</module> 
-         <module>guice</module> 
-         <module>disruptor</module> 
+         
 </modules>
 	
     <dependencies>
