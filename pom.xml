@@ -27,6 +27,7 @@
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     </properties>
    <modules>
+	   <module>guava</module>
          <!-- <module>guava-modules/guava-18</module> 
          <module>guava-modules/guava-19</module> 
         < <module>guava-modules/guava-21</module>  -->
