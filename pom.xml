@@ -27,18 +27,6 @@
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     </properties>
    <modules>
-        <module>deltaspike</module> 
-         <module>dozer</module> 
-
-         <module>ethereumj</module> 
-
-         <!--<module>ejb</module>--> 
-
-         <module>feign</module> 
-         <module>flyway</module> 
-
-         <!--<module>testing-modules/gatling</module> not meant to run as part of the standard build --> 
-
          <module>geotools</module> 
          <module>testing-modules/groovy-spock</module> 
          <module>gson</module> 
@@ -48,7 +36,6 @@
          <module>guava-modules/guava-21</module> 
          <module>guice</module> 
          <module>disruptor</module> 
-         
 </modules>
 	
     <dependencies>
